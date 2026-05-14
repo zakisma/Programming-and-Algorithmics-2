@@ -1,4 +1,3 @@
-cat << 'EOF' > .gitignore
 # macOS hidden files
 .DS_Store
 **/.DS_Store
@@ -27,5 +26,4 @@ clion-environment.txt
 !*.cpp
 !*.hpp
 !*.h
-EOF
 exam/
