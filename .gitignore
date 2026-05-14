@@ -1,0 +1,30 @@
+cat << 'EOF' > .gitignore
+# macOS hidden files
+.DS_Store
+**/.DS_Store
+
+# C/C++ compilation artifacts
+*.o
+*.out
+a.out
+
+# CMake & IDE files
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+Testing/
+Makefile
+cmake_install.cmake
+compile_commands.json
+clion-Debug-log.txt
+clion-environment.txt
+.idea/
+.vscode/
+
+# Ignore test output/reference binaries (specific to your 5hw folder)
+*out
+*ref
+!*.cpp
+!*.hpp
+!*.h
+EOF
